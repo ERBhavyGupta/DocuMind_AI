@@ -11,8 +11,8 @@ from retriever import store_chunks, retrieve_relevant_chunks
 from llm import answer_question
 
 # --- CONFIGURATION ---
-TELEGRAM_BOT_TOKEN = "8837941348:AAGdhkMvc007HOlM2poH9aI9coMCfd3_3oE"
-ADMIN_CHAT_ID = 2110277018  # <--- Your numeric ID from @userinfobot
+TELEGRAM_BOT_TOKEN = "Enter your token here"
+ADMIN_CHAT_ID = 123456789  # <--- Your numeric ID from @userinfobot
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hello! Upload a document and ask me anything. If I can't find the answer, I'll ask my human manager!")
